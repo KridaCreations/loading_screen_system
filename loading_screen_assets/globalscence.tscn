@@ -1,0 +1,46 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://fonts/Some Time Later.otf" type="DynamicFontData" id=1]
+[ext_resource path="res://loading_screen_assets/globalscence.gd" type="Script" id=2]
+
+[sub_resource type="DynamicFont" id=1]
+size = 100
+font_data = ExtResource( 1 )
+
+[node name="globalscene" type="Control"]
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+first_scene = "res://startingscreen.tscn"
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_left = 4.92957
+margin_top = 5.59892
+margin_right = 1305.93
+margin_bottom = 642.599
+color = Color( 0.160784, 0.14902, 0.14902, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ProgressBar" type="ProgressBar" parent="."]
+margin_left = 173.935
+margin_top = 160.568
+margin_right = 1152.93
+margin_bottom = 325.568
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="ProgressBar"]
+margin_left = 283.936
+margin_top = 235.174
+margin_right = 796.936
+margin_bottom = 438.174
+custom_fonts/font = SubResource( 1 )
+text = "loading.....
+"
+__meta__ = {
+"_edit_use_anchors_": false
+}
