@@ -9,4 +9,9 @@ JUST COPY PAST THIS FOLDER IN YOUR MAIN DIRECTORY AND FOLLOW THE STEPS :-
 
 
 1) Download the zip file. extract it 
-2) copy the folder with name "
+2) copy the folder with name "loading_screen_assets" to the main directory of your godot project.
+3) create a autoload singleton with the script "global.gd" provided inside the folder "loading_screen_assets" with name "Global"
+4) create another autoload singleton with the scene "globalscene.tscn" provided inside the folder "loading_screen_assets" with name "Globalscene".
+5) open the globalscene.tscn you will find a property of type string with name "first_scene", provide the path of scene you want to start the game.   
+6) create another empty 2d scene name it anything and set this scene is main scene(from project settings), this scene will act as the intial scene which godot will load.
+7) now whenever you want to change the scene use goto_scene function from
