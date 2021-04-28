@@ -4,11 +4,11 @@ a system to implement loading screen in godot game engine
 GETTING A BLACK SCREEN WHEN YOUR SCREEN IS LOADED!!!!!!
 
 DON'T WORRY HERE I HAVE IMPLEMENTED A SIMPLE LOADING SCREEN TO SIMPLIFY YOUR WORK
-JUST COPY PAST THIS FOLDER IN YOUR MAIN DIRECTORY AND FOLLOW THE STEPS :-
+JUST FOLLOW THE STEPS :-
 
 
 
-1) Download the zip file. extract it 
+1) Download the zip file of github repository. extract it 
 2) copy the folder with name "loading_screen_assets" to the main directory of your godot project.
 3) create a autoload singleton with the script "global.gd" provided inside the folder "loading_screen_assets" with name "Global"
 4) create another autoload singleton with the scene "globalscene.tscn" provided inside the folder "loading_screen_assets" with name "Globalscene".
