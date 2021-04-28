@@ -1,5 +1,5 @@
 # loading_screen_system
-a system to implement loading screen in godot game engine
+a system to implement loading screen in godot game engine made in GODOT version 3.2.2
 
 GETTING A BLACK SCREEN WHEN YOUR SCREEN IS LOADED!!!!!!
 
